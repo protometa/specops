@@ -1,0 +1,19 @@
+{
+  "name": "specops",
+  "version": "1.0.0",
+  "description": "'special opperations'",
+  "main": "specops.coffee",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register tests.coffee",
+    "devtest": "mocha -w --compilers coffee:coffee-script/register tests.coffee"
+  },
+  "author": "luke.nimtz@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.4.1"
+  },
+  "dependencies": {
+    "coffee-script": "^1.8.0"
+  }
+}

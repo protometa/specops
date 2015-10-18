@@ -1,0 +1,60 @@
+
+
+a is to b as c is to d
+
+
+Inverse opperations are higher order functions
+
+you cant add numbers like you cant add points
+
+but you can add a difference of numbers to a number like adding a vector to a point
+
+the difference, the vector is like a higher order function, or an arrow
+
+
+number
+
+subtract(identity, number) -> higher order function that takes an argument
+
+d = difference function that finds the difference between two elements and returns a function
+
+d(0,3) returns function that adds 3 to the argument
+
+d(0,3)(2) = 5
+
+
+r is function that finds ratio
+
+r(d(0,1),d(0,3))(d(0,4)) = d(0,12)
+
+
+
+
+4 number
+
+(4,0) additive number (+ 4 - 0)
+
+((4,0),(1,0)) multiplicative number (* (4 - 0) / (1 - 0))
+
+((4,0),(1,0),(2,0),(1,0))) exponential number 
+
+
+These rules could be used to contruct a universal operator function
+
+except this one wouldnt require identity or operation index arguments
+
+it would just work with the differences between numbers
+
+
+
+f n i =
+	f x =
+
+
+(a,o) = + (a - o)
+
+(a,o)(u,o) = * ((a - o) -* (u - o))
+
+
+
+		
